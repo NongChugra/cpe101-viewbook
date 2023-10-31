@@ -1,5 +1,8 @@
 # Week 5 - AI & ML
 
-Explore the fascinating fields of Artificial Intelligence and Machine Learning, learning about their applications and principles.
+- ในภาคทฤษฎีได้เรียน พื้นฐานของ ปัญญาประดิษฐ์ ตั้งแต่ ประวัติ หลักการทำงาน แนวคิดเบื้องหลัง ไปจนถึง การนำไปประยุกต์ใช้ และเทคโนโลยี AI ในปัจจุบัน
+- ในส่วนภาคปฏิบัติเราได้ศึกษาและทดลอง Train machine learning model บน Teachable Machine โดยจะเป็นการเทรนโมเดลประเภท Image classification และยังได้ทดลองใช้โมดูลกล้อง AI สุดแสนฉลาดสำหรับ Micro controller นั่นคือ Huskylens ซึ่งมีฟังก์ชั่นให้ทดลองมากมาย
 
-`เรียนรู้ Machine Learning ผ่าน Teachable Machine และใช้ Basic Machine Learning ผ่านกล้อง Husky Lens`
+![img](assets/week5/59465_0.jpg)
+![img](assets/week5/59466_0.jpg)
+![img](assets/week5/59467_0.jpg)
