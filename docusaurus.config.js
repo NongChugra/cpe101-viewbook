@@ -11,7 +11,7 @@ const config = {
   favicon: "img/favicon.ico",
 
   // Set the production url of your site here
-  url: "https://your-docusaurus-test-site.com",
+  url: "https://cpe101-viewbook-4fc36dqvz-joskul.vercel.app/",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: "/",
@@ -42,14 +42,14 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+            "https://github.com/Joskul/cpe101-viewbook/tree/main/packages/create-docusaurus/templates/shared/",
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+            "https://github.com/Joskul/cpe101-viewbook/tree/main/packages/create-docusaurus/templates/shared/",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
@@ -78,7 +78,7 @@ const config = {
           },
           { to: "/blog", label: "About Us", position: "left" },
           {
-            href: "https://github.com/facebook/docusaurus",
+            href: "https://github.com/Joskul/cpe101-viewbook",
             label: "GitHub",
             position: "right",
           },
@@ -86,47 +86,47 @@ const config = {
       },
       footer: {
         style: "dark",
-        links: [
-          {
-            title: "Docs",
-            items: [
-              {
-                label: "Tutorial",
-                to: "/docs/intro",
-              },
-            ],
-          },
-          {
-            title: "Community",
-            items: [
-              {
-                label: "Stack Overflow",
-                href: "https://stackoverflow.com/questions/tagged/docusaurus",
-              },
-              {
-                label: "Discord",
-                href: "https://discordapp.com/invite/docusaurus",
-              },
-              {
-                label: "Twitter",
-                href: "https://twitter.com/docusaurus",
-              },
-            ],
-          },
-          {
-            title: "More",
-            items: [
-              {
-                label: "Blog",
-                to: "/blog",
-              },
-              {
-                label: "GitHub",
-                href: "https://github.com/facebook/docusaurus",
-              },
-            ],
-          },
-        ],
+        // links: [
+        //   {
+        //     title: "Docs",
+        //     items: [
+        //       {
+        //         label: "Tutorial",
+        //         to: "/docs/intro",
+        //       },
+        //     ],
+        //   },
+        //   {
+        //     title: "Community",
+        //     items: [
+        //       {
+        //         label: "Stack Overflow",
+        //         href: "https://stackoverflow.com/questions/tagged/docusaurus",
+        //       },
+        //       {
+        //         label: "Discord",
+        //         href: "https://discordapp.com/invite/docusaurus",
+        //       },
+        //       {
+        //         label: "Twitter",
+        //         href: "https://twitter.com/docusaurus",
+        //       },
+        //     ],
+        //   },
+        //   {
+        //     title: "More",
+        //     items: [
+        //       {
+        //         label: "Blog",
+        //         to: "/blog",
+        //       },
+        //       {
+        //         label: "GitHub",
+        //         href: "https://github.com/facebook/docusaurus",
+        //       },
+        //     ],
+        //   },
+        // ],
         copyright: `Copyright © ${new Date().getFullYear()} A1, Inc. Built with Docusaurus.`,
       },
       prism: {
